@@ -11,7 +11,7 @@ class Marketing
 	//main started
 	public static void main(String args[])
 	{
-	   float total,dis,quantity,price;
+	   float total,discount,quantity,price;
 	   
 	   //declaring the object of scanner
 	   Scanner sc = new Scanner(System.in);
@@ -26,8 +26,8 @@ class Marketing
 	   
 	   if(price>=2000)
 	   {
-	      dis=(price*10)/100;
-		  total=price-dis;
+	      discount=(price*10)/100;
+		  total=price-discount;
 		  System.out.println("The paid amount:"+total);
 	   }
 	   //end of if part
