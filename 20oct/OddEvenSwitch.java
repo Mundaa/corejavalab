@@ -23,7 +23,7 @@ import java.util.*;
                     System.out.println(choice+ " is a EVEN Number");
                     break;
             case 1:
-                    System.out.println(choice+ " is ODD Number")
+                    System.out.println(choice+ " is ODD Number");
         }
 		//end of switch
     }
